@@ -102,14 +102,17 @@ const LoginForm = () => {
 
         {/* Captcha */}
         <div>
-          <div className="bg-white  border-2 border-gray-300 flex items-center text-center  h-28  justify-start px-5 py-4 mb-2 shadow-sm">
+          <div className="bg-white border-2 border-gray-300 flex items-center justify-center h-28 px-5 py-4 mb-2 shadow-sm">
             <span
-              className="text-2xl text-center font-bold text-gray-800 select-none tracking-widest  pl-28"
+              className="text-2xl font-bold text-gray-800 select-none tracking-widest"
               style={{ fontFamily: 'monospace', letterSpacing: '4px' }}
             >
               H3grvh
             </span>
           </div>
+        </div>
+
+        <div>
           <label
             htmlFor="captcha"
             className="block text-sm font-medium text-gray-700 mb-1"
